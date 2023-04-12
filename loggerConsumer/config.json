@@ -1,0 +1,10 @@
+{
+    "connection": {
+      "agendaUrl": "mongodb://localhost:27017/agenda",
+      "nssLogUrl": "mongodb://localhost:27017/nsslog",
+      "nssDbName":"nss-logs",
+      "nssCollectionName":"logs",
+      "rabbitMQUrl": "amqp://localhost",
+      "rabbitMQQueue": "nss-logs"
+    }
+}
